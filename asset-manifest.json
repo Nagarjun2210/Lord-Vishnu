@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Lord-Vishnu/static/css/main.2c42a81a.css",
+    "main.js": "/Lord-Vishnu/static/js/main.b23257dd.js",
+    "static/media/veera-raghava.mp3": "/Lord-Vishnu/static/media/veera-raghava.89b8c71b2fa5c640b1f2.mp3",
+    "static/media/hayagreevar.mp3": "/Lord-Vishnu/static/media/hayagreevar.d7fc6b9583d744d51b8c.mp3",
+    "static/media/hari-hari-hari-govinda.mp3": "/Lord-Vishnu/static/media/hari-hari-hari-govinda.f72ca4573218de039e8d.mp3",
+    "static/media/namo-namo-sri-narayana.mp3": "/Lord-Vishnu/static/media/namo-namo-sri-narayana.6b56d6a553de472b94f0.mp3",
+    "static/media/alllaikkirraannn-maatvn.mp3": "/Lord-Vishnu/static/media/alllaikkirraannn-maatvn.da9795bd0905c07e1625.mp3",
+    "static/media/sri-ranganaathane.mp3": "/Lord-Vishnu/static/media/sri-ranganaathane.05ba1e915fc0fca132bd.mp3",
+    "static/media/govinda-harinama.mp3": "/Lord-Vishnu/static/media/govinda-harinama.25ac101039838399d57e.mp3",
+    "static/media/guruvayurukku-varungal.mp3": "/Lord-Vishnu/static/media/guruvayurukku-varungal.baaf0bcf2aac4650127f.mp3",
+    "static/media/gokulathu-pasukkalellam.mp3": "/Lord-Vishnu/static/media/gokulathu-pasukkalellam.169ee190b9ffe11e8d0a.mp3",
+    "static/media/ennnnnn-tvm-ceytnnnai.mp3": "/Lord-Vishnu/static/media/ennnnnn-tvm-ceytnnnai.c9dacb563c344d1b1eef.mp3",
+    "static/media/pullanguzhal-kodutha-moongigale.mp3": "/Lord-Vishnu/static/media/pullanguzhal-kodutha-moongigale.7c0e4cab6072c537e384.mp3",
+    "static/media/kurai-ondrum-illai.mp3": "/Lord-Vishnu/static/media/kurai-ondrum-illai.1d9fc77c86513b6710df.mp3",
+    "static/media/thirupathi-sendru-vanthal.mp3": "/Lord-Vishnu/static/media/thirupathi-sendru-vanthal.c11023adc271bc531f0b.mp3",
+    "static/media/gopiyare-gopiyare.mp3": "/Lord-Vishnu/static/media/gopiyare-gopiyare.29881fe17eb760f59a96.mp3",
+    "static/media/aayarpadi-maligaiyil.mp3": "/Lord-Vishnu/static/media/aayarpadi-maligaiyil.c7715bb627b988a508c5.mp3",
+    "static/media/vrum-naallellaam-untnnn-tirunaallee.mp3": "/Lord-Vishnu/static/media/vrum-naallellaam-untnnn-tirunaallee.77505b1045ba17465099.mp3",
+    "index.html": "/Lord-Vishnu/index.html",
+    "main.2c42a81a.css.map": "/Lord-Vishnu/static/css/main.2c42a81a.css.map",
+    "main.b23257dd.js.map": "/Lord-Vishnu/static/js/main.b23257dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c42a81a.css",
+    "static/js/main.b23257dd.js"
+  ]
+}
