@@ -1,0 +1,23 @@
+/* FileName: app.scss */
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: "Gilroy", sans-serif; 
+} 
+
+@import "./library"; 
+@import "./player"; 
+@import "./song"; 
+h2, 
+h3 { 
+	color: #133a1b; 
+} 
+h3, 
+h4 { 
+	font-weight: 600; 
+} 
+button { 
+	font-weight: 700; 
+} 
