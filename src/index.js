@@ -7,7 +7,6 @@ import Ahzvargal from "./pages/Ahzvargal.js";
 import Bhagavatgita from "./pages/Bhagavatgita.js";
 import Dasavatharam from "./pages/Dasavatharam.js";
 import Home from "./pages/Home.js";
-import Stories from "./pages/Stories.js";
 import Songs from "./pages/Songs.js";
 
 export default function App() {
@@ -22,7 +21,6 @@ export default function App() {
                 <Route path="Divyadesangal" element={<Divyadesangal />} />
                 <Route path="Bhagavatgita" element={<Bhagavatgita />} />
                 <Route path="Dasavatharam" element={<Dasavatharam />} />
-                <Route path="Stories" element={<Stories />} />
                 <Route path="Songs" element={<Songs />} />
             </Route>
         </Routes>  

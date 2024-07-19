@@ -34,10 +34,10 @@ const LibrarySong = ({
 		<div 
 			onClick={songSelectHandler} 
 			className={`library-song ${song.active ? "selected" : ""}`} 
-		> 
+			> 
 			<div className="song-description"> 
-				<h3>{song.name}</h3> 
-				<h4>{song.artist}</h4> 
+				<h3 className="h2h3 h3h4">{song.name}</h3> 
+				<h4 className="h3h4">{song.artist}</h4> 
 			</div> 
 		</div> 
 	); 

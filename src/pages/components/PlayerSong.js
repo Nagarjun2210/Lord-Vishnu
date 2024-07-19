@@ -83,8 +83,8 @@ const Player = ({
 	return ( 
 		<div className="player"> 
 			<div className="song-container"> 
-				<h2>{currentSong.name}</h2> 
-				<h3>{currentSong.artist}</h3> 
+				<h2 className="h2h3" >{currentSong.name}</h2> 
+				<h3 className="h2h3 h3h4">{currentSong.artist}</h3> 
 			</div>
 			<div className="time-control"> 
 				<p>{getTime(songInfo.currentTime)}</p> 

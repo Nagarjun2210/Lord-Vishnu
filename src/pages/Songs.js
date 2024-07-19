@@ -5,10 +5,11 @@ import Player from "./components/PlayerSong";
 import "./styles/app.scss"; 
 
 // Importing DATA 
-import data from "./data"; 
+import data from "./Data/Songs_data"; 
 import Library from "./components/Library"; 
+
 function Songs() { 
-	
+
 const [songs, setSongs] = useState(data()); 
 const [currentSong, setCurrentSong] = useState(songs[0]); 
 const [isPlaying, setIsPlaying] = useState(false); 
@@ -43,38 +44,37 @@ const songEndHandler = async () => {
 
 	
 return ( 
-	<div> 
-	 <div style={{marginBottom: "150px"}}>
-	<Library
-		setSongs={setSongs} 
-		isPlaying={isPlaying} 
-		audioRef={audioRef} 
-		songs={songs} 
-		setCurrentSong={setCurrentSong} 
-	/>
-	<Player 
-		id={songs.id} 
-		songs={songs} 
-		songInfo={songInfo} 
-		setSongInfo={setSongInfo} 
-		audioRef={audioRef} 
-		isPlaying={isPlaying} 
-		setIsPlaying={setIsPlaying} 
-		currentSong={currentSong} 
-		setCurrentSong={setCurrentSong} 
-		setSongs={setSongs} 
-	/> 
-	 
-	<audio 
-		onLoadedMetadata={timeUpdateHandler} 
-		onTimeUpdate={timeUpdateHandler} 
-		src={currentSong.audio} 
-		ref={audioRef} 
-		onEnded={songEndHandler} 
-	></audio>
-		</div> 
+	<div className="songsPage">
+		<Library
+			setSongs={setSongs} 
+			isPlaying={isPlaying} 
+			audioRef={audioRef} 
+			songs={songs} 
+			setCurrentSong={setCurrentSong} 
+		/>
+		<Player 
+			id={songs.id} 
+			songs={songs} 
+			songInfo={songInfo} 
+			setSongInfo={setSongInfo} 
+			audioRef={audioRef} 
+			isPlaying={isPlaying} 
+			setIsPlaying={setIsPlaying} 
+			currentSong={currentSong} 
+			setCurrentSong={setCurrentSong} 
+			setSongs={setSongs} 
+		/> 
+		
+		<audio 
+			onLoadedMetadata={timeUpdateHandler} 
+			onTimeUpdate={timeUpdateHandler} 
+			src={currentSong.audio} 
+			ref={audioRef} 
+			onEnded={songEndHandler} 
+		></audio>
 	</div> 
 ); 
+
 } 
 
 export default Songs; 

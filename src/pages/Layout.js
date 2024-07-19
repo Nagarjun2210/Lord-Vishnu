@@ -1,8 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 
 const Layout = () => {
-    console.log("layout start");
     return (
         <>
       <nav>
@@ -23,14 +22,11 @@ const Layout = () => {
             <Link to="/Dasavatharam">Dasavatharam</Link>
           </li>
           <li>
-            <Link to="/Stories">Stories</Link>
-          </li>
-          <li>
             <Link to="/Songs">Songs</Link>
           </li>
         </ul>
       </nav>
-      <div style={{marginTop: "46px"}}></div>
+      <div className="marginTop"></div>
       <Outlet />
     </>
     )

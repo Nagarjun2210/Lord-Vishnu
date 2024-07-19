@@ -13,7 +13,7 @@ const Library = ({
 	return ( 
 		<div className="container">
 			<div className="library"> 
-				<h2 style={{ color: "white" }}>All songs</h2> 
+				<h2 className="header" style={{ color: "white" }}>All songs</h2> 
 				<div className="library-songs"> 
 					{songs.map((song) => ( 
 						<LibrarySong 
