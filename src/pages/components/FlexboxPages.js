@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import "../styles/paragraph.css";
+import ReactGA from "react-ga";
 const FlexboxPage = (d, title) => {
     var [flag, setFlag] = useState(false);
     var [content, setContent] = useState(d(0)[0].split('\n'));
@@ -12,8 +13,6 @@ const FlexboxPage = (d, title) => {
     const contentRef = useRef(null);
 
 
-        
-      
         useEffect(() => {
           if (contentRef.current) {
             contentRef.current.scrollTop=0;

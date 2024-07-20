@@ -1,4 +1,10 @@
+import ReactGA from "react-ga";
+import { useEffect } from "react";
+
 const Home = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+    }, []);
     console.log("home start");
     return (
         <div className="Home_container">
