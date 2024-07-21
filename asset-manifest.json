@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Lord-Vishnu/static/css/main.016829e7.css",
-    "main.js": "/Lord-Vishnu/static/js/main.9cb96be5.js",
+    "main.css": "/Lord-Vishnu/static/css/main.c36d4a5c.css",
+    "main.js": "/Lord-Vishnu/static/js/main.283dc428.js",
     "static/media/alllaikkirraannn-maatvn.mp3": "/Lord-Vishnu/static/media/alllaikkirraannn-maatvn.da9795bd0905c07e1625.mp3",
     "static/media/aayarpadi-maligaiyil.mp3": "/Lord-Vishnu/static/media/aayarpadi-maligaiyil.c7715bb627b988a508c5.mp3",
     "static/media/lord_Vishnu_avatar.jpg": "/Lord-Vishnu/static/media/lord_Vishnu_avatar.3e668bc7477ec1776353.jpg",
     "static/media/lord_vishnu.jpg": "/Lord-Vishnu/static/media/lord_vishnu.dd72bc5d358aae7f9e12.jpg",
     "index.html": "/Lord-Vishnu/index.html",
-    "main.016829e7.css.map": "/Lord-Vishnu/static/css/main.016829e7.css.map",
-    "main.9cb96be5.js.map": "/Lord-Vishnu/static/js/main.9cb96be5.js.map"
+    "main.c36d4a5c.css.map": "/Lord-Vishnu/static/css/main.c36d4a5c.css.map",
+    "main.283dc428.js.map": "/Lord-Vishnu/static/js/main.283dc428.js.map"
   },
   "entrypoints": [
-    "static/css/main.016829e7.css",
-    "static/js/main.9cb96be5.js"
+    "static/css/main.c36d4a5c.css",
+    "static/js/main.283dc428.js"
   ]
 }
