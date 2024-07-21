@@ -1,12 +1,5 @@
-import ReactGA from "react-ga4";
-import { useEffect } from "react";
-
 const Home = () => {
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname);
-    }, []);
-    console.log("home start");
-    return (
+return (
         <div className="Home_container">
             <div className="first_para">
                 <p>According to Puranas, lord Vishnu's wife is goddess Lakshmi. Lord Vishnu's residence is the Ksheer Sea (Ksheer Sagar). Their bed is above Sheshnag. Kamal is produced from his navel, in which Brahma Ji is located. He holds Padma (Kamal) in his lower left hand, Gada (Comodaki) in his lower right hand, Chacha (Panchjanya) in the left hand, and Chakra (Sudarshan) in his right hand above.<br/>

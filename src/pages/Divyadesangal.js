@@ -1,14 +1,8 @@
-import ReactGA from "react-ga4";
-import React, { useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import m from "./Data/divyadesam_data.js";
 import data from './Data/temples.js';
 
 const Divyadesangal = () => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-}, []);
-    
-  
   var [flag, setFlag] = useState(false);
   var [modalMessage, setModalMessage] = useState("");
   function toggleFlag(index) {

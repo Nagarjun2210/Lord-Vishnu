@@ -10,7 +10,7 @@ import Home from "./pages/Home.js";
 import Songs from "./pages/Songs.js";
 import ReactGA from "react-ga4";
 
-const TRACKING_ID = "G-0W727J30FC";
+const TRACKING_ID = "G-2GSW5W7CJJ";
 ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
