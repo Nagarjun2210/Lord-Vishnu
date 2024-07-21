@@ -1,4 +1,4 @@
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import React, { useState, useEffect} from 'react';
 import m from "./Data/divyadesam_data.js";
 import data from './Data/temples.js';

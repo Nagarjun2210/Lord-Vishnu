@@ -1,6 +1,6 @@
 
 // FileName: App.js 
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import { useRef, useState,  useEffect } from "react"; 
 import Player from "./components/PlayerSong"; 
 import "./styles/app.scss"; 

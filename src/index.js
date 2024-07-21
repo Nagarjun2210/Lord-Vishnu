@@ -8,9 +8,9 @@ import Bhagavatgita from "./pages/Bhagavatgita.js";
 import Dasavatharam from "./pages/Dasavatharam.js";
 import Home from "./pages/Home.js";
 import Songs from "./pages/Songs.js";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
-const TRACKING_ID = "G-2GSW5W7CJJ";
+const TRACKING_ID = "G-0W727J30FC";
 ReactGA.initialize(TRACKING_ID);
 
 export default function App() {

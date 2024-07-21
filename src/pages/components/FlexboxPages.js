@@ -1,15 +1,12 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import "../styles/paragraph.css";
-import ReactGA from "react-ga";
 const FlexboxPage = (d, title) => {
     var [flag, setFlag] = useState(false);
     var [content, setContent] = useState(d(0)[0].split('\n'));
     var glosary = d(0)[1];
     var [subTitle, setSubTitle] = useState(glosary[0]);
     var [currentIndex, setCurrentIndex] = useState(0);
-
-    const [count, setCount] = useState(0);
     const contentRef = useRef(null);
 
 

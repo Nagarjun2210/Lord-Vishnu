@@ -1,4 +1,4 @@
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import { useEffect } from "react";
 import d from "./Data/azhvargal_data.js";
 import FlexboxPage from "./components/FlexboxPages.js";
