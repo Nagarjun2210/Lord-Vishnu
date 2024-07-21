@@ -1,5 +1,5 @@
 // FileName: App.js 
-import { useRef, useState } from "react"; 
+import { useRef, useState, useEffect } from "react"; 
 import Player from "./components/PlayerSong"; 
 import "./styles/app.scss"; 
 import ReactGA from "react-ga4";
@@ -9,10 +9,14 @@ import data from "./Data/Songs_data";
 import Library from "./components/Library"; 
 
 function Songs() { 
-	ReactGA.send({
-        hitType: "pageview",
-        page: window.location.pathname,
-    });
+	useEffect(() => {
+        ReactGA.send({
+            hitType: "pageview",
+            page: "Songs",
+            title: "Songs"
+			
+        });
+      }, []);
 const [songs, setSongs] = useState(data()); 
 const [currentSong, setCurrentSong] = useState(songs[0]); 
 const [isPlaying, setIsPlaying] = useState(false); 

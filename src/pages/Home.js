@@ -1,9 +1,13 @@
 import ReactGA from "react-ga4";
+import { useEffect } from "react";
 const Home = () => {
-    ReactGA.send({
-        hitType: "pageview",
-        page: window.location.pathname,
-    });
+    useEffect(() => {
+        ReactGA.send({
+            hitType: "pageview",
+            page: "Home",
+            title: "Home"
+        });
+      }, []);
     return (
         <div className="Home_container">
             <div className="first_para">
