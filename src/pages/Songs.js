@@ -1,14 +1,18 @@
-
 // FileName: App.js 
 import { useRef, useState } from "react"; 
 import Player from "./components/PlayerSong"; 
 import "./styles/app.scss"; 
+import ReactGA from "react-ga4";
 
 // Importing DATA 
 import data from "./Data/Songs_data"; 
 import Library from "./components/Library"; 
 
 function Songs() { 
+	ReactGA.send({
+        hitType: "pageview",
+        page: window.location.pathname,
+    });
 const [songs, setSongs] = useState(data()); 
 const [currentSong, setCurrentSong] = useState(songs[0]); 
 const [isPlaying, setIsPlaying] = useState(false); 
@@ -25,7 +29,6 @@ const timeUpdateHandler = (e) => {
 	const roundedCurrent = Math.round(current); 
 	const roundedDuration = Math.round(duration); 
 	const animation = Math.round((roundedCurrent / roundedDuration) * 100); 
-	console.log(); 
 	setSongInfo({ 
 	currentTime: current, 
 	duration, 

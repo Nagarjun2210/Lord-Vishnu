@@ -14,9 +14,7 @@ const TRACKING_ID = "G-2GSW5W7CJJ";
 ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
-    console.log("begin");
     return (
-    
       <HashRouter>
         <Routes>
             <Route path="/" element={<Layout />}>

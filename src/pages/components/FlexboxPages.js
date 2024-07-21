@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import "../styles/paragraph.css";
-const FlexboxPage = (d, title) => {
+const FlexboxPage = (d, title) =>  {
     var [flag, setFlag] = useState(false);
     var [content, setContent] = useState(d(0)[0].split('\n'));
     var glosary = d(0)[1];
@@ -9,14 +9,12 @@ const FlexboxPage = (d, title) => {
     var [currentIndex, setCurrentIndex] = useState(0);
     const contentRef = useRef(null);
 
-
-        useEffect(() => {
-          if (contentRef.current) {
-            contentRef.current.scrollTop=0;
-            console.log("scroll function");
-            console.log(contentRef.current);
-        }
-        }, [currentIndex]); // Change 'count' to the state you want to watch
+    //scroll back to top
+    useEffect(() => {
+        if (contentRef.current) {
+        contentRef.current.scrollTop=0;
+    }
+    }, [currentIndex]); 
 
     const addNewContent = (index) => {
         if(index>=0 && index<glosary.length){
@@ -33,7 +31,7 @@ const FlexboxPage = (d, title) => {
             setFlag(true);
         }
     }
-    const myElement = (
+    const myElement =  (
     <div>
         <div className="title_container"><p className="menu" onClick={() => toggleMenu()}>☰</p><h1 className="title">{title}</h1></div>
         <div className="fcontainer">
