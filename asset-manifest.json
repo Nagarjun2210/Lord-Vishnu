@@ -1,17 +1,40 @@
 {
   "files": {
-    "main.css": "/Lord_Vishnu/static/css/main.c36d4a5c.css",
-    "main.js": "/Lord_Vishnu/static/js/main.4308a25d.js",
+    "main.css": "/Lord_Vishnu/static/css/main.4f7b28ae.css",
+    "main.js": "/Lord_Vishnu/static/js/main.cf297009.js",
+    "static/media/veera-raghava.mp3": "/Lord_Vishnu/static/media/veera-raghava.7326b8c6240bbd3b0f15.mp3",
+    "static/media/hayagreevar.mp3": "/Lord_Vishnu/static/media/hayagreevar.d7fc6b9583d744d51b8c.mp3",
+    "static/media/Oushadagiri-hayagreevane.mp3": "/Lord_Vishnu/static/media/Oushadagiri-hayagreevane.9178ac54c42f0cd89120.mp3",
+    "static/media/aathma-rama-song-ramasongs-rama-god-aathmarama-128-ytshorts.savetube.me.mp3": "/Lord_Vishnu/static/media/aathma-rama-song-ramasongs-rama-god-aathmarama-128-ytshorts.savetube.me.a68fe01aaa9723de1ef0.mp3",
+    "static/media/hari-hari-hari-govinda.mp3": "/Lord_Vishnu/static/media/hari-hari-hari-govinda.9f2e9ca947d7610587c4.mp3",
+    "static/media/namo-namo-sri-narayana.mp3": "/Lord_Vishnu/static/media/namo-namo-sri-narayana.6b56d6a553de472b94f0.mp3",
     "static/media/alllaikkirraannn-maatvn.mp3": "/Lord_Vishnu/static/media/alllaikkirraannn-maatvn.da9795bd0905c07e1625.mp3",
-    "static/media/aayarpadi-maligaiyil.mp3": "/Lord_Vishnu/static/media/aayarpadi-maligaiyil.c7715bb627b988a508c5.mp3",
+    "static/media/raghupathi-raghava-rajaram-original-lyrics-128-ytshorts.savetube.me.mp3": "/Lord_Vishnu/static/media/raghupathi-raghava-rajaram-original-lyrics-128-ytshorts.savetube.me.e45020116d49a085fef0.mp3",
+    "static/media/sri-ranganaathane.mp3": "/Lord_Vishnu/static/media/sri-ranganaathane.4027ab2819f37acaa4b3.mp3",
+    "static/media/govinda-harinama.mp3": "/Lord_Vishnu/static/media/govinda-harinama.2cb6ac9bbc6d24bcebde.mp3",
+    "static/media/ennnnnn-tvm-ceytnnnai.mp3": "/Lord_Vishnu/static/media/ennnnnn-tvm-ceytnnnai.c9dacb563c344d1b1eef.mp3",
+    "static/media/guruvayurukku-varungal.mp3": "/Lord_Vishnu/static/media/guruvayurukku-varungal.e8b9eb62da3118d23f8c.mp3",
+    "static/media/kurai-ondrum-illai.mp3": "/Lord_Vishnu/static/media/kurai-ondrum-illai.1d9fc77c86513b6710df.mp3",
+    "static/media/gokulathu-pasukkalellam.mp3": "/Lord_Vishnu/static/media/gokulathu-pasukkalellam.065d4377c85455b8b554.mp3",
+    "static/media/pullanguzhal-kodutha-moongigale.mp3": "/Lord_Vishnu/static/media/pullanguzhal-kodutha-moongigale.72909ab81c0e76d28a85.mp3",
+    "static/media/thirupathi-sendru-vanthal.mp3": "/Lord_Vishnu/static/media/thirupathi-sendru-vanthal.cfff234d31c58f4def76.mp3",
+    "static/media/aayarpadi-maligaiyil.mp3": "/Lord_Vishnu/static/media/aayarpadi-maligaiyil.4f17266a4873a0f44e92.mp3",
+    "static/media/gopiyare-gopiyare.mp3": "/Lord_Vishnu/static/media/gopiyare-gopiyare.45fc79ad89bdfd97e11a.mp3",
+    "static/media/vrum-naallellaam-untnnn-tirunaallee.mp3": "/Lord_Vishnu/static/media/vrum-naallellaam-untnnn-tirunaallee.f697de5ca0250f7373a1.mp3",
     "static/media/lord_Vishnu_avatar.jpg": "/Lord_Vishnu/static/media/lord_Vishnu_avatar.3e668bc7477ec1776353.jpg",
     "static/media/lord_vishnu.jpg": "/Lord_Vishnu/static/media/lord_vishnu.dd72bc5d358aae7f9e12.jpg",
+    "static/media/Tirumala_Venkateswara_temple_entrance_09062015.jpg": "/Lord_Vishnu/static/media/Tirumala_Venkateswara_temple_entrance_09062015.9a966742d61ff72e7d9c.jpg",
+    "static/media/Thirukannangudi_01_09_2021_withRahul.jpg": "/Lord_Vishnu/static/media/Thirukannangudi_01_09_2021_withRahul.c1a6e6747d405a22b80e.jpg",
+    "static/media/Thiruparthanpalli1.jpg": "/Lord_Vishnu/static/media/Thiruparthanpalli1.79c07168e1d27d8e2004.jpg",
+    "static/media/Thirukavalambadi2.jpg": "/Lord_Vishnu/static/media/Thirukavalambadi2.0d5194c9fdc6323e64b3.jpg",
+    "static/media/Nachiyar_Kovil_(13).jpg": "/Lord_Vishnu/static/media/Nachiyar_Kovil_(13).c99479ea1a4fec265ebc.jpg",
+    "static/media/Thiruvanvandoor_Pambanaiappan_Temple_1.jpg": "/Lord_Vishnu/static/media/Thiruvanvandoor_Pambanaiappan_Temple_1.bda71aa1486e6eb6f0ee.jpg",
     "index.html": "/Lord_Vishnu/index.html",
-    "main.c36d4a5c.css.map": "/Lord_Vishnu/static/css/main.c36d4a5c.css.map",
-    "main.4308a25d.js.map": "/Lord_Vishnu/static/js/main.4308a25d.js.map"
+    "main.4f7b28ae.css.map": "/Lord_Vishnu/static/css/main.4f7b28ae.css.map",
+    "main.cf297009.js.map": "/Lord_Vishnu/static/js/main.cf297009.js.map"
   },
   "entrypoints": [
-    "static/css/main.c36d4a5c.css",
-    "static/js/main.4308a25d.js"
+    "static/css/main.4f7b28ae.css",
+    "static/js/main.cf297009.js"
   ]
 }
