@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Lord_Vishnu/static/css/main.4f7b28ae.css",
-    "main.js": "/Lord_Vishnu/static/js/main.cf297009.js",
+    "main.css": "/Lord_Vishnu/static/css/main.6e311692.css",
+    "main.js": "/Lord_Vishnu/static/js/main.3f626a69.js",
     "static/media/veera-raghava.mp3": "/Lord_Vishnu/static/media/veera-raghava.7326b8c6240bbd3b0f15.mp3",
     "static/media/hayagreevar.mp3": "/Lord_Vishnu/static/media/hayagreevar.d7fc6b9583d744d51b8c.mp3",
     "static/media/Oushadagiri-hayagreevane.mp3": "/Lord_Vishnu/static/media/Oushadagiri-hayagreevane.9178ac54c42f0cd89120.mp3",
@@ -30,11 +30,11 @@
     "static/media/Nachiyar_Kovil_(13).jpg": "/Lord_Vishnu/static/media/Nachiyar_Kovil_(13).c99479ea1a4fec265ebc.jpg",
     "static/media/Thiruvanvandoor_Pambanaiappan_Temple_1.jpg": "/Lord_Vishnu/static/media/Thiruvanvandoor_Pambanaiappan_Temple_1.bda71aa1486e6eb6f0ee.jpg",
     "index.html": "/Lord_Vishnu/index.html",
-    "main.4f7b28ae.css.map": "/Lord_Vishnu/static/css/main.4f7b28ae.css.map",
-    "main.cf297009.js.map": "/Lord_Vishnu/static/js/main.cf297009.js.map"
+    "main.6e311692.css.map": "/Lord_Vishnu/static/css/main.6e311692.css.map",
+    "main.3f626a69.js.map": "/Lord_Vishnu/static/js/main.3f626a69.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7b28ae.css",
-    "static/js/main.cf297009.js"
+    "static/css/main.6e311692.css",
+    "static/js/main.3f626a69.js"
   ]
 }
