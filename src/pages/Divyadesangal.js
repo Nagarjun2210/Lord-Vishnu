@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import m from "./Data/divyadesam_data.js";
 import data from './Data/temples.js';
-import ReactGA from "react-ga4";
+import ReactGA from 'react-ga4';
 
 const Divyadesangal = () => {
-  useEffect(() => {
-    ReactGA.send({
+    useEffect(() => {ReactGA.send({
         hitType: "pageview",
         page: "Divyadesangal",
         title: "Divyadesangal"
-    });
-  }, []);
-  console.log(window.location.pathname);
+});console.log("Divyadesangal page rendered");}, []);
+
   var [flag, setFlag] = useState(false);
   var [modalMessage, setModalMessage] = useState("");
   function toggleFlag(index) {

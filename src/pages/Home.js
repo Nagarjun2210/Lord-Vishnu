@@ -1,18 +1,19 @@
 import ReactGA from "react-ga4";
-import { useEffect } from "react";
+import {useEffect} from 'react';
+
 const Home = () => {
-    useEffect(() => {
-        ReactGA.send({
+    
+    useEffect(() => {ReactGA.send({
             hitType: "pageview",
             page: "Home",
             title: "Home"
-        });
-      }, []);
+        });console.log("Home page rendered");}, []);
+        
     return (
         <div className="Home_container">
             <div className="first_para">
-                <p>According to Puranas, lord Vishnu's wife is goddess Lakshmi. Lord Vishnu's residence is the Ksheer Sea (Ksheer Sagar). Their bed is above Sheshnag. Kamal is produced from his navel, in which Brahma Ji is located. He holds Padma (Kamal) in his lower left hand, Gada (Comodaki) in his lower right hand, Chacha (Panchjanya) in the left hand, and Chakra (Sudarshan) in his right hand above.<br/>
-                In the basic texts of Hindu religion, according to the most traditional mythology, Vishnu is one of the three main forms of God. In the Puranas, Trimurti Vishnu is said to be the world's champion. The other two forms of Trinity are considered as Brahma and lord Shiva. Where Brahma is considered to be the creator of the universe, Shiva is considered a destroyer.<br/>
+                <p>In the basic texts of Hindu religion, according to the most traditional mythology, Vishnu is one of the three main forms of God. In the Puranas, Trimurti Vishnu is said to be the world's champion. The other two forms of Trinity are considered as Brahma and lord Shiva. Where Brahma is considered to be the creator of the universe, Shiva is considered a destroyer.<br/>
+                According to Puranas, lord Vishnu's wife is goddess Lakshmi. Lord Vishnu's residence is the Ksheer Sea (Ksheer Sagar). Their bed is above Sheshnag. Kamal is produced from his navel, in which Brahma Ji is located. He holds Padma (Kamal) in his lower left hand, Gada (Comodaki) in his lower right hand, Chacha (Panchjanya) in the left hand, and Chakra (Sudarshan) in his right hand above.<br/>
                 </p>
                 <img className="lord_vishnu" src={require("./resources/lord_vishnu.jpg")} alt="lord_vishnu"/>
             </div>

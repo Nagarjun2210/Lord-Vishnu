@@ -4,10 +4,12 @@ import React from "react";
 import LibrarySong from "./LibrarySong"; 
 
 const Library = ({ 
+	handleClick,
 	songs, 
 	setCurrentSong, 
 	audioRef, 
 	isPlaying, 
+	setIsPlaying,
 	setSongs,  
 }) => { 
 	return ( 
@@ -17,8 +19,10 @@ const Library = ({
 				<div className="library-songs"> 
 					{songs.map((song) => ( 
 						<LibrarySong 
+							handleClick={handleClick}
 							setSongs={setSongs} 
-							isPlaying={isPlaying} 
+							isPlaying={isPlaying}
+							setIsPlaying={setIsPlaying} 
 							audioRef={audioRef} 
 							songs={songs} 
 							song={song} 

@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"; 
 
 const Player = ({ 
+	handleClick,
 	currentSong, 
 	isPlaying, 
 	setIsPlaying, 
@@ -36,6 +37,7 @@ const Player = ({
 			} 
 		}); 
 		setSongs(newSongs); 
+		handleClick(nextPrev.name);
 		console.log("Hey from useEffect form player JS"); 
 	}; 
 	//Event Handlers 

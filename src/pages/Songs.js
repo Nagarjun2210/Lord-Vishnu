@@ -9,14 +9,14 @@ import data from "./Data/Songs_data";
 import Library from "./components/Library"; 
 
 function Songs() { 
-	useEffect(() => {
-        ReactGA.send({
+        useEffect(() => {ReactGA.send({
             hitType: "pageview",
             page: "Songs",
             title: "Songs"
 			
         });
-      }, []);
+		console.log("songs page rendered");
+	}, []);
 const [songs, setSongs] = useState(data()); 
 const [currentSong, setCurrentSong] = useState(songs[0]); 
 const [isPlaying, setIsPlaying] = useState(false); 
@@ -39,26 +39,57 @@ const timeUpdateHandler = (e) => {
 	animationPercentage: animation, 
 	});
 }; 
-const songEndHandler = async () => { 
+const songEndHandler = () => { 
+	    
+	
 	let currentIndex = songs.findIndex((song) => song.id === currentSong.id); 
-
-	await setCurrentSong(songs[(currentIndex + 1) % songs.length]); 
-
-	if (isPlaying) audioRef.current.play(); 
+	const currentPlaySong = songs[(currentIndex + 1) % songs.length];
+	setCurrentSong(currentPlaySong);
+	setIsPlaying(true);
+	//Library update
+	const newSongs = songs.map((song) => { 
+		if (song.id === currentPlaySong.id) { 
+			return { 
+				...song, 
+				active: true, 
+			}; 
+		} else { 
+			return { 
+				...song, 
+				active: false, 
+			}; 
+		} 
+	}); 
+	setSongs(newSongs); 
+	//Play audioRef.current.play()
+	setTimeout(() => audioRef.current.play() , 2000); 
+	handleClick(currentPlaySong.name);
+	
 }; 
-
+//Event handlers
+const handleClick = (songName) => {
+	ReactGA.event({
+		category: 'Song selected',
+		action: 'Click',
+		label: songName,
+	});
+	console.log(songName);
+};
 
 	
 return ( 
 	<div className="songsPage">
 		<Library
+			handleClick={handleClick}
 			setSongs={setSongs} 
 			isPlaying={isPlaying} 
+			setIsPlaying={setIsPlaying}
 			audioRef={audioRef} 
 			songs={songs} 
 			setCurrentSong={setCurrentSong} 
 		/>
 		<Player 
+			handleClick={handleClick}
 			id={songs.id} 
 			songs={songs} 
 			songInfo={songInfo} 

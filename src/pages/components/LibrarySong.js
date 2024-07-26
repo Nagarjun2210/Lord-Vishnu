@@ -2,11 +2,13 @@
 
 import React from "react"; 
 const LibrarySong = ({ 
+	handleClick,
 	song, 
 	songs, 
 	setCurrentSong, 
 	audioRef, 
 	isPlaying, 
+	setIsPlaying,
 	setSongs, 
 	id, 
 }) => { 
@@ -28,7 +30,9 @@ const LibrarySong = ({
 		}); 
 		setSongs(newSongs); 
 		//check if song is playing 
-		if (isPlaying) audioRef.current.play(); 
+		setIsPlaying(true);
+		audioRef.current.play(); 
+		handleClick(song.name);
 	}; 
 	return ( 
 		<div 

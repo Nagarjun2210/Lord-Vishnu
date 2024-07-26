@@ -4,12 +4,20 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() { 
 return [ 
 	{ 
+	name: "Aathma rama anandha ramana",  
+	artist: " ", 
+	audio: 
+require("../resources/allSongs/aathma-rama-song-ramasongs-rama-god-aathmarama-128-ytshorts.savetube.me.mp3"), 
+	id: uuidv4(), 
+	active: true, 
+	},
+	{ 
 	name: "Aayarpadi maligaiyil",  
 	artist: "S. P. Balasubrahmanyam", 
 	audio: 
 require("../resources/allSongs/aayarpadi-maligaiyil.mp3"), 
 	id: uuidv4(), 
-	active: true, 
+	active: false, 
 	}, 
 	{ 
 	name: "Azhaikiran madhavan",  
@@ -18,7 +26,7 @@ require("../resources/allSongs/aayarpadi-maligaiyil.mp3"),
 require("../resources/allSongs/alllaikkirraannn-maatvn.mp3"), 
 	id: uuidv4(), 
 	active: false, 
-	}, /*
+	}, 
 	{ 
 	name: "Enna dhavam seydhanai",  
 	artist: "Sudha Raghunathan", 
@@ -109,6 +117,14 @@ require("../resources/allSongs/pullanguzhal-kodutha-moongigale.mp3"),
 	active: false, 
 	}, 
 	{ 
+	name: "Raghupathi raghava rajaram",  
+	artist: " ", 
+	audio: 
+require("../resources/allSongs/raghupathi-raghava-rajaram-original-lyrics-128-ytshorts.savetube.me.mp3"), 
+	id: uuidv4(), 
+	active: false, 
+	},
+	{ 
 	name: "Sri Ranganaathane",  
 	artist: "Mahanadhi Shobana", 
 	audio: 
@@ -139,7 +155,7 @@ require("../resources/allSongs/veera-raghava.mp3"),
 require("../resources/allSongs/vrum-naallellaam-untnnn-tirunaallee.mp3"), 
 	id: uuidv4(), 
 	active: false, 
-	}*/
+	}
 ]; 
 } 
 

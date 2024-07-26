@@ -1,20 +1,12 @@
 import d from "./Data/azhvargal_data.js";
 import FlexboxPage from "./components/FlexboxPages.js";
-import ReactGA from "react-ga4";
-import { useEffect } from "react";
 
 const Ahzvargal = () => {
-    useEffect(() => {
-        ReactGA.send({
-            hitType: "pageview",
-            page: "Ahzvargal",
-            title: "Ahzvargal"
-        });
-      }, []);
     
     const title = "ஆழ்வார்கள்";
     const page = FlexboxPage(d, title);
     return page;
+    
 };
 
 export default Ahzvargal;
