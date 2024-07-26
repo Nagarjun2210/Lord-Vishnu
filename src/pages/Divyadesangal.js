@@ -10,15 +10,27 @@ const Divyadesangal = () => {
         title: "Divyadesangal"
 });console.log("Divyadesangal page rendered");}, []);
 
+//Event handler
+const handleClick = (templeName) => {
+  ReactGA.event({
+      category: 'Divyadesam modal content',
+      action: 'Click',
+      label: templeName,
+  });
+  console.log(templeName);
+};
+
   var [flag, setFlag] = useState(false);
   var [modalMessage, setModalMessage] = useState("");
-  function toggleFlag(index) {
+  function toggleFlag(index, n) {
     if (flag === true) {
       setFlag(false);
     }
     else {
-      setModalMessage(m(index-1));
+      const mM = m(index-1);
+      setModalMessage(mM);
       setFlag(true);
+      handleClick(n);
     }
   };
   const temples = data();
@@ -27,7 +39,7 @@ const Divyadesangal = () => {
     <div>
         <div id="myModal" className={`modal ${flag ? "active" : ""}`} >
           <div className="modal-content">
-            <span className="close" id="close" onClick={(i) => toggleFlag(i)}>&times;</span>
+            <span className="close" id="close" onClick={(i) => toggleFlag(i, "close")}>&times;</span>
             <p className="modal_message">{modalMessage}</p>
           </div>
         </div>
@@ -41,9 +53,10 @@ const Divyadesangal = () => {
         Pallava Nadu (north)<br/>
         Vada Nadu (northern India)<br/>
         Vinnulaga Divya Desams (celestial)</p>
+        <center><p><b>Click the temple to see more info about it</b></p></center>
         <div className="grid-container">
             {temples.map((temple) => (
-              <div key={temple.id} className="grid-item" id="myBtn" onClick={() => {toggleFlag(temple.id)}}>
+              <div key={temple.id} className="grid-item" id="myBtn" onClick={() => {toggleFlag(temple.id, temple.name)}}>
                 <div className="inner-grid">
                   <img src={temple.image_source} alt="1"/>
                   <div className="text_container">

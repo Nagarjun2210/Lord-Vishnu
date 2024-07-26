@@ -67,6 +67,9 @@ h3{
     text-align: center;
     padding: 0;
 }
+.guidedMessage{
+    display: none;
+}
 @media only screen and (max-width: 600px){
     .glosary{
         display: none;
@@ -75,6 +78,9 @@ h3{
         display: inline;
     }
     .active{
+        display: block;
+    }
+    .guidedMessage{
         display: block;
     }
 }
